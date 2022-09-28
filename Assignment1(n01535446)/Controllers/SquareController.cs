@@ -15,7 +15,9 @@ namespace Assignment1_n01535446_.Controllers
         /// <param name="id">Take an integer input</param>
         /// <returns>Returns the square of the integer input {id}</returns>
         /// <example>
-        /// GET: /api/Square/2 ->  4
+        /// GET: /api/Square/2    ->  4
+        /// GET: /api/Square/-2   -> 4
+        /// GET: /api/Square/10   -> 100
         /// </example>
         public int Get(int id)
         {

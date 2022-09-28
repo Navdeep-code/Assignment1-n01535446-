@@ -28,6 +28,8 @@ namespace Assignment1_n01535446_.Controllers
         /// <returns> Returns the string “Greetings to {id} people!” where id is an integer value</returns>
         /// <example>
         /// GET: /api/Greeting/3     -> Greetings to 3 people!
+        /// GET: /api/Greeting/6     -> Greetings to 6 people!
+        /// GET: /api/Greeting/0     -> Greetings to 0 people!
         /// </example>
         public string get(int id)
         {

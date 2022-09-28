@@ -15,7 +15,9 @@ namespace Assignment1_n01535446_.Controllers
         /// <param name="id">Takes an Integer value</param>
         /// <returns>Returns 10 more than the integer input {id}</returns>
         /// <example> 
-        /// GET: /api/AddTen/21 ->31
+        /// GET: /api/AddTen/21   ->31 
+        /// GET: /api/AddTen/0    ->10
+        /// GET: /api/AddTen/-9   ->1
         /// </example>
         public int Get(int id)
         {
